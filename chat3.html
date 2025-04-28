@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Tung Tung Tung Sahur - Kokoa clone</title>
+
+    <style>
+      .narrow {
+        margin-bottom: 1%;
+      }
+    </style>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Mr. Sang</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tuesday, April 22, 2025</div>
+
+      <div class="message-row">
+        <img src="img/sang.png" />
+        <div class="message-row__content">
+          <span class="message__author">Mr. Sang</span>
+          <div class="message__info">
+            <span class="message__bubble">연주씨 맞나요?</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">저 연주 아닙니다</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row narrow">
+        <img src="img/sang.png" />
+        <div class="message-row__content">
+          <span class="message__author">Mr. Sang</span>
+          <div class="message__info">
+            <span class="message__bubble">에이 거짓말 하지마요</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row narrow">
+        <img src="img/background.png" />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >이미 집 주소랑 주민등록 번호까지 다 확인했으니까
+            </span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row narrow">
+        <img src="img/background.png" />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">12시까지 제 집으로 와요</span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="img/background.png" />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">대학 안가고싶어요?</span>
+            <span class="message__time">21:28</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row narrow">
+        <img src="img/sang.png" />
+        <div class="message-row__content">
+          <span class="message__author">Mr. Sang</span>
+          <div class="message__info">
+            <span class="message__bubble">연주씨는 이제 제 소유물이에요</span>
+            <span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row narrow">
+        <img src="img/background.png" />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">발악하지말고 운명을 받아드려요</span>
+            <span class="message__time">21:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row narrow">
+        <img src="img/background.png" />
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">난 중국인이 좋더라고요 ㅎㅎ</span>
+            <span class="message__time">21:31</span>
+          </div>
+        </div>
+    </main>
+
+    <form class="reply">
+      <div class="relpy__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/fb4071c194.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
